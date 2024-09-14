@@ -1,0 +1,12 @@
+{
+    "specs":{
+        "font": ["basic", 24],
+        "window_def": [120, 80]
+    },
+
+    "colors":{
+        "accent": "#ff7070",
+        "bg": "#3f3f3f",
+        "text":"#ffffff"
+    }
+}
