@@ -1,0 +1,54 @@
+{
+    "specs": {
+        "font": [
+            "basic",
+            12
+        ],
+        "window_def": [
+            120,
+            80
+        ]
+    },
+    "colors": {
+        "accent": "#helloooo",
+        "bg": "#3f3f3f",
+        "text": "#ffffff"
+    },
+    "help_screen": {
+        "exit": [
+            "                   ",
+            "                   ",
+            "                   ",
+            "                  User>> exit",
+            "                   ",
+            "                  <<this will kill TheTerminal>>",
+            "                   ",
+            "                   ",
+            "                   ",
+            "                   "
+        ],
+        "superecho": [
+            "                   ",
+            "                   ",
+            "                   ",
+            "                  User>> superecho <(any text)>",
+            "                   ",
+            "                  <<this will display text user>>",
+            "                   ",
+            "                   ",
+            "                   ",
+            "                   "
+        ]
+    },
+    "user_presets": {
+        "nums": [
+            1
+        ],
+        "new": [
+            1,
+            2,
+            10,
+            "hi"
+        ]
+    }
+}
