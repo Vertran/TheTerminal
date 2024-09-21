@@ -1,19 +1,12 @@
-import keyboard
-import time
+def read_custom_file(filepath):
+    with open(filepath, 'r') as file:
+        data = {}
+        for line in file:
+            if ':' in line:
+                key, value = line.split(':', 1)
+                data[key.strip()] = value.strip()
+        return data
 
-memory = [
-    "   First Line of Life here!",
-    "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-          ]
-buffer = []
-run = True
-
-def memory_upd(memory, buffer):
-    print(str(memory) + "Hello World!")
-    
-def live_write(memory):
-    
-
-
-#while run:
-memory_upd(memory, buffer)
+# Example usage:
+file_data = read_custom_file('image.vimg')
+print(file_data)
